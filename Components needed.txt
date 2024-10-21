@@ -1,0 +1,45 @@
+
+
+
+
+Components Needed:
+
+1. ESP8266 (NodeMCU)
+
+
+2. Relay Module (for controlling appliances)
+
+
+3. LED or any appliance for demo (as an output device)
+
+
+4. Jumper wires
+
+
+5. Power supply
+
+
+
+Project Overview:
+
+This project will allow you to control a light or appliance by accessing a web server hosted by the ESP8266 over Wi-Fi. The appliance can be switched ON/OFF from the browser.
+
+Wiring:
+
+1. ESP8266 to Relay Module
+
+D1 (GPIO5) to Relay IN1
+
+VCC to 3.3V
+
+GND to GND
+
+
+
+2. Relay Module to LED/Appliance
+
+One terminal of the LED/appliance to NO (Normally Open)
+
+Other terminal of the LED/appliance to GND or Power (based on your setup)
+
+

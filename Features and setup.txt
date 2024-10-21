@@ -1,0 +1,15 @@
+
+
+This Arduino project uses an ESP8266 (NodeMCU) to create a simple home automation system. It allows control of appliances over Wi-Fi using a web server hosted by the ESP8266.
+
+## Features:
+- Control relay (for lights, fans, etc.) over Wi-Fi using a web interface.
+- Simple HTML-based interface.
+- Easy to set up.
+
+
+## Setup:
+1. Connect the ESP8266 to the relay as described in the wiring section of the code.
+2. Upload the Arduino code to the ESP8266.
+3. Open the Serial Monitor to find the IP address of the ESP8266.
+4. Open the IP address in a browser to control the appliance.
